@@ -1,0 +1,17 @@
+{
+    "name": "hcodebr/composer",
+    "description": "aula de php 7",
+    "type": "project",
+    "authors": [
+        {
+            "name": "luis",
+            "email": "luiscampossilva96@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+
+    "monolog/monolog":"1.0.*"
+    }
+}

@@ -1,0 +1,187 @@
+@charset "UTF-8";
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+
+.dropdown-item, .dropdown-item:hover {
+    color: white!important;
+    background-color: black!important;
+}
+
+/*css adriano*/
+.centro{margin-left: 38%;}
+
+.link {color: #000; 
+text-decoration: none;
+}
+.link-menu {color: #fff; 
+text-decoration: none;
+}
+/*
+a:hover{color: #000;}
+*/
+.divisao{width: 100%; color: lightgray; height: .2px; background-color:lightgray;}
+
+.paragrafocinza {color: gray;}
+
+span {padding: 1% 0% 0% 0%;
+font-size: 1.5em; }
+
+.espaçamentoaside {margin-top: 1%;}
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+    .imagemcentro {text-align: center !important;
+    }
+    .col-sm-12-1 {
+   
+    max-width: 100%;
+}
+.espacamentotopo {margin-top: 5%;}
+.espacamentoesquerda {margin-left: 4.8%}
+.espacamentodireita {margin-right: 3%;}
+.espacamentobaixo {margin-bottom: 10%;}
+.adrianoespacobottom {margin-bottom: 3%}
+    .breadcrumbcontatos {padding-top: 10%;}
+@media only screen and (max-width: 575px) and (min-width:200px){
+    
+    
+    .circle {
+        background-color: #aaa;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        position: relative;
+    }
+    .circle img {
+        transform: scale(1.4);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+  .float-left1 {
+  float: left !important;
+}
+    .paragrafoartistas {width: 60%;
+    margin-left: 2%;}
+   
+}
+@media only screen and (max-width: 575px) and (min-width:200px){
+    .reducaodeimagem {
+    width: 125px;
+    height: auto;
+    }
+    .reducaodefonte{
+        font-size: 0.75em;
+    }
+    .reducaodefontenumero2{
+        font-size: 0.94em;
+    }
+    .reducaodefontenumero3{font-size:1rem;
+    }
+    .reducaopunk{
+        width: 100px;
+        height: auto;
+    }
+    .reducaodeimagem2punk {
+    width: 200px;
+    height: auto;
+    }
+    .offsetquemsomos {
+  margin-left: 0%;
+}
+    }
+@media only screen and (max-width: 1200px) and (min-width:768px){
+    .card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+    
+    }   
+
+}
+@media only screen and (max-width: 1600px) and (min-width:768px){
+    .reducaodeimagemnumero2 {
+        height: 350px;
+        width: auto;
+    }
+}
+@media only screen and (max-width: 767px) and (min-width:200px){
+        
+.offsetcontatos {
+  margin-left: 0%;
+}
+        
+    }
+    /*css Rafael*/
+@charset 'utf-8';
+
+.menuSecundario {
+    background-color: #23272b;
+}
+
+@media (max-width: 576px) {
+    header {
+        display: none;
+    }
+}
+/*css Madureira*/
+    .menu2 {
+	background-color: black;
+	color: white;
+}
+
+.menu2 a {
+	color: white;
+}
+
+.menu2 a:hover {
+	color: red;
+
+}
+
+.border {
+
+	border-top-width: 30px;
+	border-top-style: solid;
+	border-top-color: black;
+	border: 4;
+	4;
+	4;
+	4;
+
+}
+
+.box {
+	float: left;
+	margin-right: 20px;
+}
+
+.clear {
+	clear: both;
+}
+    /*css luis*/
+    .text-dark { color: #000;
+    }
+    .text-dark:hover{color: #000;
+        text-decoration: none;
+    }
+   
+
+    
+       
